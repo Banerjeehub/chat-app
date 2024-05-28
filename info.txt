@@ -1,0 +1,22 @@
+classValue[] = {
+
+    This is a TypeScript type annotation. ClassValue is a type that represents possible values for CSS class names. It could be a string, an object, or an array of strings and objects. The ClassValue[] indicates that the function accepts an array of these ClassValue items as its argument.
+}
+
+clsx = {
+
+    it takes a series of inputs and returns a string of concatenated class names. It handles various types of inputs:
+
+    Strings: 'class1'
+    Objects: { class2: true, class3: false } (only keys with truthy values are included)
+    Arrays: ['class4', { class5: true }]
+
+}
+
+twMerge = {
+
+    it is used to intelligently merge Tailwind CSS class names, ensuring there are no conflicts or duplicates. For example, if two Tailwind classes with conflicting styles are passed, twMerge ensures that only the last one is applied.
+}
+
+
+
